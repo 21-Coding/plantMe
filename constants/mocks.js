@@ -1,0 +1,8 @@
+const categories = [
+
+];
+
+const products = [
+
+
+];

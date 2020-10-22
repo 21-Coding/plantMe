@@ -20,6 +20,14 @@ const screens = createStackNavigator({
 
 }, {
     defaultNavigationOptions: {
+        headerStyle: {},
+        headerBackImage: <Image />,
+        headerBackTitle: null,
+        headerLeftContainerStyle: {},
+        headerRightContainerStyle: {},
+
         
     }
 });
+
+export default createAppContainer(screens);
